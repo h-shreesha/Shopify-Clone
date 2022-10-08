@@ -3,31 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <title>Shopify</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screen: {
+                    sm: '480px',
+                    md: '768px',
+                    lg: '976px',
+                    xl: '1440px'
+                },
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+        padding: 0;
+        margin: 0;
+        outline: 0;
+        width: 100%;
+        height: 100%;
+        font-family: Inter, sans-serif;
+        overflow-x: hidden;
+    }
+</style>
 </head>
 <body>
-    <nav>
-        <img src="" alt="">
-        <ul>
-            <li>Start</li>
-            <li>Sell</li>
-            <li>Market</li>
-            <li>Manage</li>
+    <nav class=" bg-[#1C8D73] p-4 flex flex-row justify-between relative items-center">
+        <img src="./images/logo.png" alt="" class="w-24 relative left-16">
+        <ul class="  md: flex flex-row justify-between items-center gap-12 relative right-16">
+            <li class="text-white font-medium hover:font-bold">Sell</li>
+            <li class="text-white font-medium hover:font-bold">Start</li>
+            <li class="text-white font-medium hover:font-bold">Market</li>
+            <li class="text-white font-medium hover:font-bold">Manage</li>
         </ul>
-        <ul>
-            <li>Pricing</li>
-            <li>Learn</li>
-            <li>Login</li>
+        <ul class=" md: flex flex-row justify-between items-center gap-12 relative left-20">
+            <li class="text-white font-medium hover:font-bold">Pricing</li>
+            <li class="text-white font-medium hover:font-bold">Learn</li>
+            <li class="text-white font-medium hover:font-bold">Login</li>
         </ul>
-        <button>Start free trial</button>
+        <button class="bg-[#1FAA59] px-5 py-5 pt-2 pb-2 rounded text-white font-extrabold relative right-10 hover:bg-[#1c8d73] hover:border border-{#1faa59}">Start free trial</button>
     </nav>
 
-    <section>
-        <button>Shopify Editions, Summer '22 is here  | Discover 100+ new features</button>
+    <section class="bg-[#1c8d73]">
+        <button class="p-4 bg-[#1c8d73] ml-20 border-2 rounded-full">Shopify Editions, Summer '22 is here  | Discover 100+ new features</button>
     </section>
 
-    <section>
-        <div>
+    <!-- Hero section starts -->
+
+    <section class="pt-24 bg-[#1c8d73] ">
+        <div class="flex flex-col-reverse ">
             <div>
                 <h1>If you can dream it, <br> you can sell it with <br> Shopify</h1>
                 <h2>Build your business here. Take it anywhere.</h2>
@@ -37,7 +68,7 @@
                 </div>
                 <p>Try Shopify free for 14 days, no credit card required. By entering your email, you agree to <br> receive marketing emails from Shopify.</p>
             </div>
-            <img src="" alt="">
+            <img src="./images/section1Img.webp" alt="">
         </div>
     </section>
 
