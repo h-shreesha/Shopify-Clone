@@ -1,75 +1,72 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopify</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        screen: {
-                    sm: '480px',
-                    md: '768px',
-                    lg: '976px',
-                    xl: '1440px'
-                },
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            screen: {
+                        sm: '480px',
+                        md: '768px',
+                        lg: '976px',
+                        xl: '1827px'
+                    },
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            }
         }
-      }
-    }
-  </script>
-  <style>
-    body {
-        padding: 0;
-        margin: 0;
-        outline: 0;
-        width: 100%;
-        height: 100%;
-        font-family: Inter, sans-serif;
-        overflow-x: hidden;
-    }
+        }
+    </script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Inter, sans-serif;
+            overflow-x: hidden;
+        }
 </style>
 </head>
 <body>
-    <nav class=" bg-[#1C8D73] p-4 flex flex-row justify-between relative items-center">
-        <img src="./images/logo.png" alt="" class="w-24 relative left-16">
-        <ul class="  md: flex flex-row justify-between items-center gap-12 relative right-16">
-            <li class="text-white font-medium hover:font-bold">Sell</li>
-            <li class="text-white font-medium hover:font-bold">Start</li>
-            <li class="text-white font-medium hover:font-bold">Market</li>
-            <li class="text-white font-medium hover:font-bold">Manage</li>
+    <nav class=" bg-[#fbf7ed] p-4 flex flex-row justify-between relative items-center">
+        <img src="./Images/logo.svg" alt="" class="w-48 ">
+        <ul class="  xl: flex flex-row justify-between items-center gap-12 relative right-16">
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Sell <i class="fa-solid fa-angle-down"></i></li>
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Start <i class="fa-solid fa-angle-down"></i></li>
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Market <i class="fa-solid fa-angle-down"></i></li>
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Manage <i class="fa-solid fa-angle-down"></i></li>
         </ul>
-        <ul class=" md: flex flex-row justify-between items-center gap-12 relative left-20">
-            <li class="text-white font-medium hover:font-bold">Pricing</li>
-            <li class="text-white font-medium hover:font-bold">Learn</li>
-            <li class="text-white font-medium hover:font-bold">Login</li>
+        <ul class=" xl: flex flex-row justify-between items-center gap-12 relative left-20">
+            <li class=" hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Pricing <i class="fa-solid fa-angle-down"></i></li>
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Learn <i class="fa-solid fa-angle-down"></i></li>
+            <li class="hidden xl:inline text-[#42474c] font-medium text-2xl hover:font-bold hover:text-[#313131] hover:cursor-pointer">Login <i class="fa-solid fa-angle-down"></i></li>
         </ul>
-        <button class="bg-[#1FAA59] px-5 py-5 pt-2 pb-2 rounded text-white font-extrabold relative right-10 hover:bg-[#1c8d73] hover:border border-{#1faa59}">Start free trial</button>
+        <button class="bg-[#008060] px-5 py-5 pt-2 pb-2 rounded text-white font-extrabold relative right-10 hover:bg-[#1c8d73] hover:border border-{#1faa59} hover:bg-darkgreen transition delay-150 duration-300 ease-in-out">Start free trial</button>
     </nav>
-
-    <section class="bg-[#1c8d73]">
-        <button class="p-4 bg-[#1c8d73] ml-20 border-2 rounded-full">Shopify Editions, Summer '22 is here  | Discover 100+ new features</button>
-    </section>
 
     <!-- Hero section starts -->
 
-    <section class="pt-24 bg-[#1c8d73] ">
+    <section class="pt-24 bg-[#fbf7ed] ">
         <div class="flex flex-col-reverse ">
             <div>
-                <h1>If you can dream it, <br> you can sell it with <br> Shopify</h1>
-                <h2>Build your business here. Take it anywhere.</h2>
+                <h1>The easiest way to sell<br> online in India </h1>
+                <h2>Try one of the most powerful platforms on the market <br> for free. No technical knowledge needed.</h2>
                 <div>
-                    <input type="text" id="fname" name="fname"><br>
-                    <button>Start free trial</button>
+                    <input type="text" id="fname" name="fname" placeholder="Enter email address"><br>
+                    <button>Try for free</button>
                 </div>
                 <p>Try Shopify free for 14 days, no credit card required. By entering your email, you agree to <br> receive marketing emails from Shopify.</p>
             </div>
             <img src="./images/section1Img.webp" alt="">
-        </div>
+        </div>  
     </section>
 
     <section>
