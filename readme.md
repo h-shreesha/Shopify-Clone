@@ -5,7 +5,7 @@ By Shreesha
 Here's the Live Deployed Website ![Paytm Clone](https://img.shields.io/badge/Shopify-Clone-orange)
 
 
-## [DEPLOYED WEBSITE LINK](https://paytm-clone-tailwindcss-jsbootcamp.netlify.app/)
+## [DEPLOYED WEBSITE LINK](https://shopify-clone-tailwindcss-jsbootcamp.netlify.app/)
 
 ![Completed Website](./readmeImages/websiteSnap1.png)
 
